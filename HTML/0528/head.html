@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+    <meta charset="UTF-8">  <!-- 사용할 문자 집합을 정의 : 컴퓨터 언어를 UTF-8로 번역해서 사용 -->
+    <meta http-equiv="X-UA-Compatible" content="IE=edge"> <!-- http-equiv : content 속성에 명시된 값에 대한 HTTP 헤더를 제공-->
+    <meta name="viewport" content="width=device-width, initial-scale=1.0"> <!-- viewport : 사용자가 웹 페이지에서 볼 수 있는 영역-->
+    <title>HTML Head</title>
+    <!-- 
+    HTML의 <link>요소 
+    href : 연결할 소리로의 URL을 지정
+    rel : 현재문서와 연결된 리소스의 관계를 지정
+    -->
+    <link rel="stylesheet" href="head.css">
+    <script>
+        function Head() {
+            document.getElementById("head").innerHTML = "Hello Javascript!";
+        }
+    </script>
+</head>
+<body>
+    <h1>HTML의 HEAD영역을 배워봅시다.</h1>
+    <p id="head">HTML의 HEAD영역은 화면에 나타나지 않습니다</p>
+    <button onclick="Head()">버튼 태그 입니다</button>
+
+</body>
+</html>

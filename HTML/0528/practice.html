@@ -1,0 +1,113 @@
+<!DOCTYPE html>
+<html lang="ko">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 20px;
+        }
+
+        h1 {
+            color: #333;
+            text-align: center;
+        }
+
+        p {
+            color: #555;
+            line-height: 1.5;
+        }
+
+        ul {
+            list-style-type: disc;
+            padding-left: 20px;
+        }
+
+        table {
+            border-collapse: collapse;
+            width: 100%;
+        }
+
+        th,
+        td {
+            padding: 8px;
+            border-bottom: 1px solid #ddd;
+        }
+
+        img {
+            max-width: 100%;
+            height: auto;
+        }
+    </style>
+</head>
+
+<body>
+    <h1>HTML 연습 예시</h1>
+    <h2>HEAD 태그</h2>
+    
+    <h2>TEXT</h2>
+    <p>HTML 예제 실습입니다.</p>
+    
+    <h2>List</h2>
+    <ul>   
+        <li>항목1</li>
+        <li>항목2</li>
+        <li>항목3</li>
+    </ul>    
+
+    <h2>Table</h2>
+    <table>
+        <thead>
+            <tr>
+                <th>이름</th>      
+                <th>나이</th>
+                <th>이메일</th>
+            </tr>
+        </thead>
+        <tbody>
+            <tr>
+                <td>홍길동</td>
+                <td>30</td>
+                <td>HONG@NAVER.COM</td>
+            </tr>
+            <tr>
+                <td>홍길동</td>
+                <td>30</td>
+                <td>HONG@NAVER.COM</td>
+            </tr>
+        </tbody>
+    </table>
+    
+    <h2>Image</h2>
+    <img src="/Images/athletes-1835893__480.jpg" alt="야구장 이미지" width="100px">
+
+    <h2>시맨틱 태그</h2>
+    <head>
+        <h1>웹사이트 제목</h1>
+        <ul>
+            <li><a href="#">메뉴1</a></li> <!-- #을 넣게되면 현재 해당하는 페이지 = 로고를 클릭하면 문서의 제일 처음으로 돌아가는 페이지-->
+            <li><a href="#">메뉴2</a></li>
+            <li><a href="#">메뉴3</a></li>
+        </ul>
+    </head>
+    <main>
+        <h2>섹션 제목</h2>
+        <section>
+            <h3>글 제목</h3>
+            <p>본문 내용</p>
+        </section>
+        <section>
+            <h3>글 제목</h3>
+            <p>본문 내용</p>
+        </section>
+    </main>
+    <footer>
+        <p>저작권 2023. 모든 권리 보유</p> <!-- 그냥 텍스트만 있으면 웬만해선 p 태그 쓰면 됨-->
+    </footer>
+</body>
+</html>
